@@ -1,0 +1,14 @@
+{
+    "name": "@thegd/vkmultiplatform",
+    "version": "0.0.1",
+    "description": "Library for multiplatfroming your VK application",
+    "license": "MIT",
+    "repository": "thegd/vkmultiplatform",
+    "main": "index.js",
+    "keywords": [
+      "vk",
+      "multiplatform",
+      "moblie",
+      "desktop",
+      "thegd"
+    ]
