@@ -6,7 +6,7 @@ class VKMP {
 
     Start() {
         VK.init(function() {
-            console.log('Все работает');
+            console.log('Все работает. ' + 'Локацния: ' + window.location.href);
          }, function() {
             console.error(error);
        }, '5.103');
