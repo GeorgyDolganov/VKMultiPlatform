@@ -5,10 +5,10 @@ class VKMP {
     }
 
     Start() {
-        vkBridge.send('VKWebAppInit');
+        vkConnect.send('VKWebAppInit');
     }
     
     callMethod(){
-        vkBridge.send("VKWebAppAllowNotifications", {});
+        vkConnect.send("VKWebAppAllowNotifications", {});
     }
 };
